@@ -5,7 +5,7 @@ const send = document.getElementById('send');
 send.onclick = sendMessage;
 
 input.addEventListener('keydown', (event) => {
-    if (event.key === 'AQ.Ab8RN6K6ltKmxR-qDLgfMzAdBWMVy6wm4Ak1UQE6-wafMNaOow') {
+    if (event.key === 'Enter') {
         sendMessage();
     }
 });
